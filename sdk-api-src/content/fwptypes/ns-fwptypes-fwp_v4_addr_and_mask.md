@@ -58,7 +58,7 @@ The <b>FWP_V4_ADDR_AND_MASK</b> structure specifies IPv4 address and mask in hos
 
 ### -field addr
 
-Specifies an IPv4 address.
+Specifies an IPv4 address. (Uses reversed byte order comparing to ULONG value returned by InetPton.)
 
 ### -field mask
 
